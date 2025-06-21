@@ -108,3 +108,65 @@ Example:
 ```c
 unsigned int x = 100;
 long double pi = 3.1415926535;
+
+### ASCII Values
+
+- ASCII (American Standard Code for Information Interchange) represents characters as numerical codes.
+- Each character is assigned a unique integer value.
+- Common ASCII values:
+  - 'A' = 65
+  - 'Z' = 90
+  - 'a' = 97
+  - 'z' = 122
+  - '0' = 48
+  - '9' = 57
+  - Space = 32
+  - Enter (newline) = 10
+
+---
+
+### Operators in C
+
+#### 1. Arithmetic Operators
+- + Addition  
+- - Subtraction  
+- * Multiplication  
+- / Division  
+- % Modulus (remainder)
+
+#### 2. Relational Operators
+- == Equal to  
+- != Not equal to  
+- < Less than  
+- > Greater than  
+- <= Less than or equal to  
+- >= Greater than or equal to
+
+#### 3. Logical Operators
+- && Logical AND  
+- || Logical OR  
+- ! Logical NOT
+
+#### 4. Assignment Operators
+- = Assign  
+- +=, -=, *=, /=, %= Compound assignment
+
+#### 5. Increment/Decrement Operators
+- ++ Increment  
+- -- Decrement
+
+#### 6. Bitwise Operators
+- & Bitwise AND  
+- | Bitwise OR  
+- ^ Bitwise XOR  
+- ~ Bitwise NOT  
+- << Left shift  
+- >> Right shift
+
+#### 7. Conditional (Ternary) Operator
+- condition ? expression1 : expression2;
+
+#### 8. Special Operators
+- sizeof Returns size of a data type or variable  
+- & Returns the address of a variable  
+- * Pointer to a variable
