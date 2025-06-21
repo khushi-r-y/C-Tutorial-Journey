@@ -39,7 +39,7 @@ Example-
 const float pi = 3.142;   // uses 4 bytes
 #define pi 3.142          // uses 0 bytes (preprocessor directive)
 
-### Identifiers
+### **Identifiers**
 - **Identifiers** are names used to identify:
  -Variables
  -Functions
