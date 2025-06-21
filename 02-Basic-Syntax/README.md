@@ -108,6 +108,7 @@ Example:
 ```c
 unsigned int x = 100;
 long double pi = 3.1415926535;
+```
 
 ### ASCII Values
 
