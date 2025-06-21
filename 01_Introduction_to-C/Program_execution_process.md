@@ -30,4 +30,4 @@ When we write a C program, it does not immediately run. It goes through several 
 
 ## 🧠 Diagram (Text Format)
 ![Execution Process]
-(https://github.com/khushi-r-y/C-Tutorial-Journey/blob/main/01_Introduction_to-C/WhatsApp%20Image%202025-06-21%20at%2018.13.29.jpeg)
+(https://github.com/khushi-r-y/C-Tutorial-Journey/blob/main/Program-execution-diagram.jpeg)
