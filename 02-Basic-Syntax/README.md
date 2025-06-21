@@ -22,24 +22,25 @@
  x=100;
 -Stored in RAM.
 
-###Initialization
-*Initialized variable can be-
+### Initialization
+- **Initialized variable** can be-
  -global
  -static
-*Uninitialized variable are typically-
+- **Uninitialized variable** are typically-
  -local
 
-###Constants
-*A constant is a fixed value.
+### Constants
+- A **constant** is a **fixed** value.
 *Defined using:
- -Keyword:const
- --Preprocessor:#defined
+ - **Keyword**: `const`
+ - **Preprocessor**: `#defined`
 Example-
+```c
 const float pi = 3.142;   // uses 4 bytes
 #define pi 3.142          // uses 0 bytes (preprocessor directive)
 
-###Identifiers
-*Identifiers are names used to identify:
+### Identifiers
+- **Identifiers** are names used to identify:
  -Variables
  -Functions
  -Structures
