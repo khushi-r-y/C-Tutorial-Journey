@@ -10,7 +10,7 @@ int main()
     R = 5;
     SI = (P * T * R) / 100.0;
 
-    printf("Simple Interest = %.2f\n", SI);
+    printf("Simple Interest = %f\n", SI);
 
     return 0;
 }
