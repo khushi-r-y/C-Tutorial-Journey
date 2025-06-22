@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() 
+{
+    int x, y;
+
+    x = 15;
+    y = 10;
+
+    x>y?printf("x is largest = %d",x):printf("y is largest = %d",y);
+
+    return 0;
+}
