@@ -1,0 +1,23 @@
+- ###Formatted input and output statments
+
+- input: scanf()
+- output: printf()
+
+- ###printf()
+  syntax: printf("format specifiers/message,variable list");
+  
+
+- ###scanf()
+  syntax: scanf("format specifiers",&variable list);
+
+- ###Formats: %
+
+- int = %d or %i
+- float = %f
+- double = %lf
+- char = %c
+- string = %s
+- unsigned = %u
+- unsigned long = %ul or %lu
+- octal = %o
+- hexadecimal = %x or %X
