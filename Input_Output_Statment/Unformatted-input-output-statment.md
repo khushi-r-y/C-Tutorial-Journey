@@ -1,9 +1,9 @@
-- ###input
+ ###input
 - getch()
 - getche()
 - getchar()
 - gets()
 
-- ###output
+ ###output
 - putchar()
 - puts()
