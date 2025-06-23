@@ -800,3 +800,189 @@ int main()
  return 0;
  }
 ```
+
+-Days of th week program
+
+```c
+int main()
+{
+    int x;
+    printf("Enter x value: ");
+    scanf("%d", &x);
+    if(x == 1)
+    {
+        printf("Sun");
+    }
+    else if(x == 2)
+    {
+        printf("Mon");
+    }
+    else if(x == 3)
+    {
+        printf("Tue");
+    }
+    else if(x == 4)
+    {
+        printf("Wed");
+    }
+    else if(x == 5)
+    {
+        printf("Thu");
+    }
+    else if(x == 6)
+    {
+        printf("Fri");
+    }
+    else if(x == 7)
+    {
+        printf("Sat");
+    }
+    else
+    {
+        printf("Invalid");
+    }
+    return 0;
+}
+```
+- Check if number is even/odd and divisible by 4 or 3
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    if(num % 2 == 0)
+    {
+        printf("The number is even\n");
+        if(num % 4 == 0)
+        {
+            printf("Divisible by 4\n");
+        }
+        else
+        {
+            printf("Not Divisible by 4\n");
+        }
+    }
+    else
+    {
+        printf("The number is odd\n");
+        if(num % 3 == 0)
+        {
+            printf("Divisible by 3\n");
+        }
+        else
+        {
+            printf("Not divisible by 3\n");
+        }
+    }
+    return 0;
+}
+```
+
+- Check positive/negative even/odd and zero
+```
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    if(num > 0)
+    {
+        if(num % 2 == 0)
+        {
+            printf("The number is Positive Even\n");
+        }
+        else
+        {
+            printf("The number is Positive odd\n");
+        }
+    }
+    else if(num < 0)
+    {
+        if(num % 2 == 0)
+        {
+            printf("The Number is Negative Even\n");
+        }
+        else
+        {
+            printf("The Number is Negative Odd\n");
+        }
+    }
+    else
+    {
+        printf("The number is zero\n");
+    }
+    return 0;
+}
+```
+- Display month name based on number input
+```c
+
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    printf("Enter a integer: ");
+    scanf("%d", &x);
+    if(x == 1)
+    {
+        printf("Jan");
+    }
+    else if(x == 2)
+    {
+        printf("Feb");
+    }
+    else if(x == 3)
+    {
+        printf("Mar");
+    }
+    else if(x == 4)
+    {
+        printf("Apr");
+    }
+    else if(x == 5)
+    {
+        printf("May");
+    }
+    else if(x == 6)
+    {
+        printf("Jun");
+    }
+    else if(x == 7)
+    {
+        printf("July");
+    }
+    else if(x == 8)
+    {
+        printf("Agu");
+    }
+    else if(X == 9)
+    {
+        printf("Sept");
+    }
+    else if(x == 10)
+    {
+        printf("Oct");
+    }
+    else if(x == 11)
+    {
+        printf("Nov");
+    }
+    else if(x == 12)
+    {
+        printf("Dec");
+    }
+    else
+    {
+        printf("Invalid Number");
+    }
+    return 0;
+}
+```
