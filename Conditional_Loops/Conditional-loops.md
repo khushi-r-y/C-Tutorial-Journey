@@ -13,7 +13,7 @@
 - switch
 
 
-- ###Simple if
+- #Simple if
 
 - Syntax:
 
@@ -24,3 +24,18 @@
 
 
 ---
+```c
+int main()  
+{  
+    int x, y, z;  
+    scanf("%d %d", &x, &y);  
+    
+    if (x != y)  
+    {  
+        z = x + y;  
+        printf("Sum = %d", z);  
+    }  
+    
+    printf("End of program");  
+}
+```
