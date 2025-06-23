@@ -16,11 +16,22 @@
 - #Simple if
 
 - Syntax:
-
+```C
   if (condition)  
   {  
       set of statements  
   }
+```
+
+
+
+- *WAP - WRITE A PROGRAM*
+- *WAPT - WRITE A PROGRAM TO*
+- *WAPTR - WRITE A PROGRAM TO READ*
+- *WAPTD - WRITE A PROGRAM TO DISPLAY*
+- *WAPTRAD - WRITE A PROGRAM TO READ AND DISPLAY*
+
+
 
 
 ---
