@@ -1,26 +1,26 @@
-###CONDITIONAL STATEMENT
+- ###CONDITIONAL STATEMENT
 
-→ Decision making statements
+- → Decision making statements
 
-if (simple if) → One way statement
+- if (simple if) → One way statement
 
-if ... else → Two way statement
+- if ... else → Two way statement
 
-nested if ... else -> Multi-way statment
+- nested if ... else -> Multi-way statment
 
-if ... else if ... → Multi-way statement
+- if ... else if ... → Multi-way statement
 
-switch
+- switch
 
 
-###Simple if
+- ###Simple if
 
-Syntax:
+- Syntax:
 
-if (condition)  
-{  
-    set of statements  
-}
+  if (condition)  
+  {  
+      set of statements  
+  }
 
 
 ---
