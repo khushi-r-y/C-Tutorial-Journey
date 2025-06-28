@@ -1,4 +1,4 @@
- *LOOPS*
+*LOOPS*
 
 ---
 
@@ -14,17 +14,14 @@ Backward branching statement
 
 - Types of Loops
 
-Loops
-           |
-   -------------------
-   |                 |
-Conditional      Un-Conditional  
-   Loops              Loops  
-  while             goto  
+Conditional          
+   Loops                 
+  while                   
   do...while  
   for
 
-
+Un-Conditional  Loops
+goto
 ---
 
 - Syntax of goto
