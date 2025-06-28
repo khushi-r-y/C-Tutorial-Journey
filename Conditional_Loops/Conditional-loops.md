@@ -997,3 +997,270 @@ int main()
     return 0;
 }
 ```
+- ###Switch
+- syntax :
+- switch(expression)  
+{  
+    case constant1:  
+        // statements  
+        break;  
+
+    case constant2:  
+        // statements  
+        break;  
+
+    case constant3:  
+        // statements  
+        break;  
+
+    default:  
+        // default statements  
+}
+
+- WAP to read an integer and display corresponding days of a week
+```c
+#include <stdio.h>
+
+int main()  
+{  
+    int x;  
+    printf("Enter integer: ");  
+    scanf("%d", &x);  
+    
+    switch(x)  
+    {  
+        case 1: printf("Sun"); break;  
+        case 2: printf("Mon"); break;  
+        case 3: printf("Tue"); break;  
+        case 4: printf("Wed"); break;  
+        case 5: printf("Thu"); break;  
+        case 6: printf("Fri"); break;  
+        case 7: printf("Sat"); break;  
+        default: printf("Invalid number"); break;  
+    }  
+    
+    return 0;  
+}
+```
+- WAPT find largest of 3 integers
+```
+#include <stdio.h>
+
+int main()  
+{  
+    int a, b, c;  
+    printf("Enter 3 integers = \n");  
+    scanf("%d%d%d", &a, &b, &c);  
+    
+    switch(a > b)  
+    {  
+        case 1:  
+            switch(a > c)  
+            {  
+                case 1: printf("A is largest"); break;  
+                case 0: printf("C is largest"); break;  
+            }  
+            break;  
+        
+        case 0:  
+            switch(b > c)  
+            {  
+                case 1: printf("B is largest"); break;  
+                case 0: printf("C is largest"); break;  
+            }  
+            break;  
+    }  
+    
+    return 0;  
+}
+```
+
+- WAPTR a character and check if the given character is vowel or not
+```
+#include <stdio.h>
+
+int main()  
+{  
+    char ch;  
+    printf("Enter character:\n");  
+    ch = getchar();  
+    
+    if (ch == 'a' || ch == 'A')  
+    {  
+        printf("Vowel");  
+    }  
+    else if (ch == 'e' || ch == 'E')  
+    {  
+        printf("Vowel");  
+    }  
+    else if (ch == 'i' || ch == 'I')  
+    {  
+        printf("Vowel");  
+    }  
+    else if (ch == 'o' || ch == 'O')  
+    {  
+        printf("Vowel");  
+    }  
+    else if (ch == 'u' || ch == 'U')  
+    {  
+        printf("Vowel");  
+    }  
+    else  
+    {  
+        printf("Not vowel");  
+    }  
+    
+    return 0;  
+}
+```
+ - WAPT calculate electricity bill
+```c
+int main()
+{
+    int pres, prev, units;
+    float amt, totalbill, addcharge;
+    
+    printf("Enter pres units & prev units\n");
+    scanf("%d%d", &pres, &prev);
+    
+    units = pres - prev;
+    
+    if (units > 0 && units <= 50)
+    {
+        amt = units * 0.50;
+    }
+    else if (units > 50 && units <= 150)
+    {
+        amt = 50 * 0.50 + (units - 50) * 0.75;
+    }
+    else if (units > 150 && units <= 250)
+    {
+        amt = 50 * 0.50 + 100 * 0.75 + (units - 150) * 1.20;
+    }
+    else
+    {
+        amt = 50 * 0.50 + 100 * 0.75 + 100 * 1.20 + (units - 250) * 1.50;
+    }
+    
+    addcharge = 0.20 * amt;
+    totalbill = amt + addcharge;
+    
+    printf("Payable electricity bill = %f", totalbill);
+    
+    return 0;
+}
+```
+
+- WAPT impliment a calculator with the followinf arithamatic operators + - */
+```
+int main()
+{
+    char ch;
+    int n1, n2;
+    float Res;
+    
+    printf("Enter choice + - * /\n");
+    ch = getchar();
+    
+    printf("Enter 2 numbers\n");
+    scanf("%d%d", &n1, &n2);
+    
+    switch(ch)
+    {
+        case '+': Res = n1 + n2;
+                  printf("Add = %f", Res);
+                  break;
+                  
+        case '-': Res = n1 - n2;
+                  printf("Sub = %f", Res);
+                  break;
+                  
+        case '*': Res = n1 * n2;
+                  printf("Mul = %f", Res);
+                  break;
+                  
+        case '/': Res = (float)n1 / n2;
+                  printf("Div = %f", Res);
+                  break;
+                  
+        default : printf("Invalid choice");
+    }
+    
+    return 0;
+}
+```
+- WAPTF area of triangle,circle and rectangle from user choice
+```
+int main()
+{
+    char ch;
+    int n1, n2;
+    float Res;
+    
+    printf("Enter choice + - * /\n");
+    ch = getchar();
+    
+    printf("Enter 2 numbers\n");
+    scanf("%d%d", &n1, &n2);
+    
+    switch(ch)
+    {
+        case '+': Res = n1 + n2;
+                  printf("Add = %f", Res);
+                  break;
+                  
+        case '-': Res = n1 - n2;
+                  printf("Sub = %f", Res);
+                  break;
+                  
+        case '*': Res = n1 * n2;
+                  printf("Mul = %f", Res);
+                  break;
+                  
+        case '/': Res = (float)n1 / n2;
+                  printf("Div = %f", Res);
+                  break;
+                  
+        default : printf("Invalid choice");
+    }
+    
+    return 0;
+}
+```
+- WAPTR a character and check given character id alphabet,digit,space or special character
+```
+int main()
+{
+    char ch;
+    printf("Enter a character\n");
+    ch = getchar();
+
+    switch ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+    {
+        case 1:
+            printf("Alphabet");
+            break;
+
+        case 0:
+            switch (ch >= '0' && ch <= '9')
+            {
+                case 1:
+                    printf("Digit");
+                    break;
+
+                case 0:
+                    switch (ch == 32)
+                    {
+                        case 1:
+                            printf("Space");
+                            break;
+
+                        case 0:
+                            printf("Special character");
+                    }
+            }
+    }
+
+    return 0;
+}
+```
