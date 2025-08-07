@@ -56,4 +56,3 @@ Hello World
 
 ---
 
-Let me know if you also want a proper complete C program using goto.
