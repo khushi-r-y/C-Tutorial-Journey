@@ -56,3 +56,20 @@ Hello World
 
 ---
 
+- Un-conditional loop goto
+
+```c
+int main()
+{
+   int i;
+   i=1;
+   Displaynatural:
+      printf("%d\n",i);
+      i++;
+   if(i<=5)
+   {
+      goto Displaynatural;
+   }
+   return 0;
+}
+```
